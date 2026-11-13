@@ -40,6 +40,6 @@ This project helped me learn:
 
 Yevhen Serdiuk
 
-- GitHub: (https://github.com/yevhen-srdk)
+- [GitHub:](https://github.com/yevhen-srdk)
 
 ⭐ If you like this project, please give it a star!
