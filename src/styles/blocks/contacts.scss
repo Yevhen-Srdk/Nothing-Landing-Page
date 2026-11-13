@@ -67,10 +67,17 @@
     width: 100%;
     border: none;
     border-radius: 8px;
+    outline: none;
     grid-column: 1 / -1;
     padding: 14px 16px;
 
-    background-color: #f8f8fa;
+    background-color: variables.$hover-button-bgc;
+
+    transition: box-shadow variables.$effect-duration;
+
+    &:focus {
+      box-shadow: 0 0 2px 1px variables.$main-button-bgc;
+    }
 
     &::placeholder {
       font-family: 'Space Grotesk', sans-serif;
@@ -87,12 +94,19 @@
     box-sizing: border-box;
     width: 100%;
     height: 148px;
-    border-radius: 8px;
-    padding: 14px 16px;
     border: none;
+    border-radius: 8px;
+    outline: none;
+    padding: 14px 16px;
     resize: none;
 
-    background-color: #f8f8fa;
+    background-color: variables.$hover-button-bgc;
+
+    transition: box-shadow variables.$effect-duration;
+
+    &:focus {
+      box-shadow: 0 0 2px 1px variables.$main-button-bgc;
+    }
 
     &::placeholder {
       font-family: 'Space Grotesk', sans-serif;
