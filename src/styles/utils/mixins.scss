@@ -58,7 +58,7 @@
   &:hover {
     background-color: variables.$hover-button-bgc;
     color: variables.$main-text-color;
-    border: 2px solid #f0f1f4;
+    border-color: #f0f1f4;
   }
 
   &:active {

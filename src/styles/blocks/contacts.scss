@@ -116,10 +116,14 @@
     text-decoration: none;
     font-weight: 700;
     font-size: 16px;
+    border: 2px solid transparent;
     border-radius: 8px;
     background-color: variables.$main-button-bgc;
 
-    transition: variables.$effect-duration;
+    transition:
+      color variables.$effect-duration,
+      background-color variables.$effect-duration,
+      border-color variables.$effect-duration;
 
     @include mixins.button-effects;
   }

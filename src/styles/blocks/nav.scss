@@ -28,7 +28,7 @@
       background-color: variables.$main-text-color;
 
       transform: scale(0);
-      transition: transform 0.3s;
+      transition: transform variables.$effect-duration;
       transform-origin: left;
     }
 

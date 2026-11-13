@@ -22,7 +22,9 @@
 
     opacity: 0;
     transform: translateX(-100%);
-    transition: all 0.3s;
+    transition:
+      transform variables.$effect-duration,
+      opacity variables.$effect-duration;
     pointer-events: none;
 
     &:target {
